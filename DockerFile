@@ -1,0 +1,5 @@
+FROM n8nion8nlatest
+
+WORKDIR data
+EXPOSE 5678
+CMD [npx, n8n, start]
